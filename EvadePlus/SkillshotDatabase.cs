@@ -556,7 +556,7 @@ namespace EvadePlus
                         Slot = SpellSlot.Q,
                         Delay = 250,
                         Range = 850,
-                        Radius = 50,
+                        Radius = 195,
                         MissileSpeed = 1400,
                         DangerValue = 3,
                         MissileSpellName = "DianaArc"
