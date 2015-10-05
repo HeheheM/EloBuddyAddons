@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using EloBuddy;
 using EvadePlus.SkillshotTypes;
 using EvadePlus.SkillshotTypes.SpecialTypes;
