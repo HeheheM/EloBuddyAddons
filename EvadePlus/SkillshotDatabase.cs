@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using EloBuddy;
 using EvadePlus.SkillshotTypes;
 using EvadePlus.SkillshotTypes.SpecialTypes;
@@ -532,36 +532,36 @@ namespace EvadePlus
                         MissileSpellName = "MissileBarrageMissile"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Darius",
-                //        SpellName = "DariusAxeGrabCone",
-                //        Slot = SpellSlot.E,
-                //        Delay = 320,
-                //        Range = 570,
-                //        Radius = 20,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "DariusAxeGrabCone"
-                //    }
-                //},
-                //new CircularMissileSkillshot //Unknown:SpellType.Arc
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Diana",
-                //        SpellName = "DianaArc",
-                //        Slot = SpellSlot.Q,
-                //        Delay = 250,
-                //        Range = 850,
-                //        Radius = 50,
-                //        MissileSpeed = 1400,
-                //        DangerValue = 3,
-                //        MissileSpellName = "DianaArc"
-                //    }
-                //},
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Darius",
+                        SpellName = "DariusAxeGrabCone",
+                        Slot = SpellSlot.E,
+                        Delay = 320,
+                        Range = 570,
+                        Radius = 20,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "DariusAxeGrabCone"
+                    }
+                },
+                new CircularMissileSkillshot Unknown:SpellType.Arc
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Diana",
+                        SpellName = "DianaArc",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 850,
+                        Radius = 50,
+                        MissileSpeed = 1400,
+                        DangerValue = 3,
+                        MissileSpellName = "DianaArc"
+                    }
+                },
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
