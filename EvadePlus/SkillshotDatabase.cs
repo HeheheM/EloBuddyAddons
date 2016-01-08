@@ -1064,6 +1064,57 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "Illaoi Q",
+                        ChampionName = "Illaoi",
+                        SpellName = "IllaoiQ",
+                        Slot = SpellSlot.Q,
+                        Delay = 750,
+                        Range = 850,
+                        Radius = 100,
+                        MissileSpeed = int.MaxValue,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = "illaoiemis"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Illaoi E",
+                        ChampionName = "Illaoi",
+                        SpellName = "IllaoiE",
+                        Slot = SpellSlot.E,
+                        Delay = 250,
+                        Range = 950,
+                        Radius = 50,
+                        MissileSpeed = 1900,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = "illaoiemis"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Illaoi R",
+                        ChampionName = "Illaoi",
+                        SpellName = "IllaoiR",
+                        Slot = SpellSlot.R,
+                        Delay = 500,
+                        Range = 0,
+                        Radius = 450,
+                        MissileSpeed = int.MaxValue,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = ""
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "ranscendent Blades",
                         ChampionName = "Irelia",
                         SpellName = "IreliaTranscendentBlades",
