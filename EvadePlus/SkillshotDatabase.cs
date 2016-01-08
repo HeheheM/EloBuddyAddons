@@ -293,7 +293,7 @@ namespace EvadePlus
                         SpellName = "RocketGrab",
                         Slot = SpellSlot.Q,
                         Delay = 250,
-                        Range = 1050,
+                        Range = 1060,
                         Radius = 70,
                         MissileSpeed = 1800,
                         DangerValue = 4,
