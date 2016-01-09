@@ -1514,7 +1514,7 @@ namespace EvadePlus
                 {
                     SpellData = new SpellData
                     {
-                        DisplayName = "Khazix E,
+                        DisplayName = "Khazix E",
                     	ChampionName = "Khazix",
                     	SpellName = "KhazixE",
                     	Slot = SpellSlot.E,
