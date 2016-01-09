@@ -1415,13 +1415,8 @@ namespace EvadePlus
                     {
                         DisplayName = "Lay Waste",
                         ChampionName = "Karthus",
-                        SpellName = "KarthusLayWasteA2",
-                    	ExtraSpellNames =
-                        	new[]
-                        	{
-                            		"karthuslaywastea3", "karthuslaywastea1", "karthuslaywastedeada1", "karthuslaywastedeada2",
-                            		"karthuslaywastedeada3"
-                        	},
+                        SpellName = "KarthusLayWasteA2", "karthuslaywastea3", "karthuslaywastea1", "karthuslaywastedeada1", "karthuslaywastedeada2",
+                        "karthuslaywastedeada3",
                         Slot = SpellSlot.Q,
                         Delay = 625,
                         Range = 875,
